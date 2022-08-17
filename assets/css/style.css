@@ -700,6 +700,7 @@ a:hover {
 .hero .hero-content {
   text-align: center;
   position: absolute;
+  margin-top: 40px;
 }
 .hero .overlay-itro {
   background-color: rgba(0, 0, 0, 0.6);
@@ -714,7 +715,7 @@ a:hover {
 .hero .hero-title {
   color: #fff;
   font-weight: 600;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 @media (min-width: 768px) {
   .hero .hero-title {
@@ -1348,6 +1349,10 @@ a:hover {
 .widget-tags ul li a {
   color: #fff;
 }
+.slide-icons{
+  color: black;
+  font-size: 180px;
+}
 
 /*--------------------------------------------------------------
 # Footer
@@ -1367,3 +1372,4 @@ footer .credits {
 footer .credits a {
   color: #fff;
 }
+
