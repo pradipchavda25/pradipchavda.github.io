@@ -356,7 +356,7 @@ a:hover {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #fff;
+  background: rgb(255, 255, 255);
 }
 
 #preloader:before {
@@ -794,7 +794,10 @@ a:hover {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-
+.about-mf .box-shadow-full {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
 .about-mf .about-img {
   margin-bottom: 2rem;
   pointer-events: none;
@@ -1349,10 +1352,6 @@ a:hover {
 .widget-tags ul li a {
   color: #fff;
 }
-.slide-icons{
-  color: black;
-  font-size: 180px;
-}
 
 /*--------------------------------------------------------------
 # Footer
@@ -1371,5 +1370,10 @@ footer .credits {
 }
 footer .credits a {
   color: #fff;
+}
+
+.slide-icons{
+  color: black;
+  font-size: 180px;
 }
 
