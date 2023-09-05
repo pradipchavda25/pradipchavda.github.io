@@ -1,10 +1,14 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 body {
   background-color: #e6e6e6;
   color: #4e4e4e;
-  font-family: "Source Code Pro", monospace;
+  /* font-family: "Source Code Pro", monospace; */
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
 }
 
@@ -242,11 +246,11 @@ a:hover {
 .socials .ico-circle {
   height: 40px;
   width: 40px;
-  font-size: 1.2rem;
+  font-size: 1rem;
   border-radius: 50%;
   line-height: 1.6;
   margin: 0 15px 0 0;
-  box-shadow: 0 0 0 3px #000000;
+  box-shadow: 0 0 0 3px #ffffff4c;
   transition: all 500ms ease;
 }
 
@@ -820,13 +824,16 @@ a:hover {
 .hero .hero-subtitle {
   font-size: 1.5rem;
   font-weight: 600;
-  font-family: "Source Code Pro", monospace;
+  /* font-family: "Source Code Pro", monospace; */
+  font-family: 'Montserrat', sans-serif;
+
 }
 
 @media (min-width: 768px) {
   .hero .hero-subtitle {
     font-size: 2.5rem;
-    font-family: "Source Code Pro", monospace;
+    /* font-family: "Source Code Pro", monospace; */
+    font-family: 'Montserrat', sans-serif;
   }
 }
 
@@ -888,11 +895,11 @@ a:hover {
 }
 
 .cv-btn input:hover {
-    /* background-color: #e6e6e6; */
-    border: 2px solid rgb(214, 214, 214);
-    color: rgb(255, 255, 255);
-    font-weight: bolder;
-    box-shadow: 0px 0px 10px 2px rgb(221 250 255);
+  /* background-color: #e6e6e6; */
+  border: 2px solid rgb(214, 214, 214);
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+  box-shadow: 0px 0px 10px 2px rgb(221 250 255);
 
 
 }
